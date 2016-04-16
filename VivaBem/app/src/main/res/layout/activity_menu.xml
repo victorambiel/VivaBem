@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vivabem.com.br.vivabem.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:src="@mipmap/vivabem"
+                android:id="@+id/iv_menu"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_menu_saude"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:text="@string/menu_saude"
+                android:padding="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorTexto"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_dengue"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:padding="5dp"
+                android:text="@string/tv_item_dengue"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_depressao"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:padding="5dp"
+                android:text="@string/tv_item_depressao"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_coracao"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:padding="5dp"
+                android:text="@string/tv_item_coracao"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_cancer"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:padding="5dp"
+                android:text="@string/tv_item_cancer"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_item_zika"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:padding="5dp"
+                android:text="@string/tv_item_zika"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_menu_sobre"
+                android:textSize="24sp"
+                android:paddingLeft="5dp"
+                android:text="@string/tv_item_sobre"
+                android:padding="5dp"
+                android:background="@color/colorPrimary"
+                android:textColor="@color/colorTexto"/>
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>
